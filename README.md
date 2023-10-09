@@ -14,9 +14,16 @@ Data Extraction: Extracts valuable information like species name, status, order,
 * HTML::TreeBuilder
 * IO::Handle
 
-# Clonar el repositorio
-git clone https://github.com/tuusuario/PlantHunterBot.git
+## Instalación
 
-# Navegar al directorio del proyecto
-cd PlantHunterBot
+Para instalar y ejecutar este script, sigue los siguientes pasos en tu terminal:
+
+👉 **Terminal**
+
+```plaintext
+user@machine:~$ git clone https://github.com/tuusuario/PlantHunterBot.git
+Cloning into 'PlantHunterBot'...
+...
+user@machine:~$ cd PlantHunterBot
+user@machine:~/PlantHunterBot$
 
