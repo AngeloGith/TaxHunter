@@ -7,7 +7,7 @@ Input/Output: Reads a list of species from an input file and writes the scraped 
 Web Scraping: Utilizes LWP::UserAgent for HTTP requests and HTML::TreeBuilder for HTML parsing.
 Data Extraction: Extracts valuable information like species name, status, order, family, and genus.
 
-Dependencies
+# Dependencies
 
 * Getopt::Long
 * LWP::UserAgent
