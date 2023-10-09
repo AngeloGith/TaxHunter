@@ -33,7 +33,7 @@ user@machine:~$ cd PlantHunter
 Prepare an input file containing a list of species names, one per line.
 Run the script using the following command:
 
-```perl plant_hunter.pl -i input.txt -o output.txt```
+```perl plantHunter.pl -i input.txt -o output.txt```
 
 # Example
 
