@@ -14,16 +14,62 @@ Data Extraction: Extracts valuable information like species name, status, order,
 * HTML::TreeBuilder
 * IO::Handle
 
-## Instalación
+## Installation
 
-Para instalar y ejecutar este script, sigue los siguientes pasos en tu terminal:
+To install and run this script, follow these steps in your terminal:
 
 👉 **Terminal**
 
 ```plaintext
-user@machine:~$ git clone https://github.com/tuusuario/PlantHunterBot.git
+user@machine:~$ git clone https://github.com/yourusername/PlantHunterBot.git
 Cloning into 'PlantHunterBot'...
 ...
 user@machine:~$ cd PlantHunterBot
 user@machine:~/PlantHunterBot$
+
+
+👉 **Terminal**
+
+```plaintext
+user@machine:~$ git clone https://github.com/tuusuario/PlantHunter.git
+Cloning into 'PlantHunterBot'...
+...
+user@machine:~$ cd PlantHunterBot
+user@machine:~/PlantHunterBot$
+```
+
+# Usage
+
+Prepare an input file containing a list of species names, one per line.
+Run the script using the following command:
+
+```perl plant_hunter.pl -i input.txt -o output.txt```
+
+# Example
+
+Input File
+The input file should contain a list of species names, one per line. For example:
+
+```plaintext
+Arabidopsis thaliana
+Oryza sativa
+Zea mays
+```
+
+### Output File
+
+The output file will contain the scraped data in a tab-separated format. Here's what the output might look like with different statuses:
+
+```markdown
+| Species              | Status                          | Order      | Family       | Genus       |
+| -------------------- | ------------------------------- | ---------- | ------------ | ----------- |
+| Arabidopsis thaliana | Accepted Name                   | Brassicales| Brassicaceae | Arabidopsis |
+| Oryza sativa         | Accepted Name                   | Poales     | Poaceae      | Oryza       |
+| Zea mays             | Accepted Name                   | Poales     | Poaceae      | Zea         |
+| Fictus plantus       | The name may be misspelled or not recognized | N/A  | N/A          | N/A         |
+
+
+
+
+
 
