@@ -62,7 +62,7 @@ The output file will contain the scraped data in a tab-separated format. Here's 
 |                      | not recognized                  | N/A        | N/A          | N/A         |
 
 | etc...               |
-
+```
 
 
 
