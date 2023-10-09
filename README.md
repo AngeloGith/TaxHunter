@@ -1,5 +1,5 @@
 # TaxHunter
-Plant Hunter is a Perl script designed to scrape plant species data from World Flora Online. It takes a list of species names from an input file and fetches details like the accepted name, status, order, family, and genus. 
+Plant Hunter is a Perl script designed to scrape plant species data from World Flora Online. 
 
 # Features
 
