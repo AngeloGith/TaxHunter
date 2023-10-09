@@ -54,6 +54,8 @@ The input file should contain a list of species names, one per line. For example
 Arabidopsis thaliana
 Oryza sativa
 Zea mays
+Fictus plantus
+etc..
 ```
 
 ### Output File
@@ -66,8 +68,10 @@ The output file will contain the scraped data in a tab-separated format. Here's 
 | Arabidopsis thaliana | Accepted Name                   | Brassicales| Brassicaceae | Arabidopsis |
 | Oryza sativa         | Accepted Name                   | Poales     | Poaceae      | Oryza       |
 | Zea mays             | Accepted Name                   | Poales     | Poaceae      | Zea         |
-| Fictus plantus       | The name may be misspelled or not recognized | N/A  | N/A          | N/A         |
+| Fictus plantus       | The name may be misspelled or   |
+|                      | not recognized                  | N/A        | N/A          | N/A         |
 
+| etc...               |
 
 
 
