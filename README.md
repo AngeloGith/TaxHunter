@@ -1,5 +1,5 @@
 # TaxHunter
-Plant Hunter Bot is a Perl script designed to scrape plant species data from World Flora Online. It takes a list of species names from an input file and fetches details like the accepted name, status, order, family, and genus. 
+Plant Hunter is a Perl script designed to scrape plant species data from World Flora Online. It takes a list of species names from an input file and fetches details like the accepted name, status, order, family, and genus. 
 
 # Features
 
@@ -18,24 +18,14 @@ Data Extraction: Extracts valuable information like species name, status, order,
 
 To install and run this script, follow these steps in your terminal:
 
-👉 **Terminal**
-
-```plaintext
-user@machine:~$ git clone https://github.com/yourusername/PlantHunterBot.git
-Cloning into 'PlantHunterBot'...
-...
-user@machine:~$ cd PlantHunterBot
-user@machine:~/PlantHunterBot$
-
 
 👉 **Terminal**
 
 ```plaintext
 user@machine:~$ git clone https://github.com/tuusuario/PlantHunter.git
-Cloning into 'PlantHunterBot'...
+Cloning into 'PlantHunter'...
 ...
-user@machine:~$ cd PlantHunterBot
-user@machine:~/PlantHunterBot$
+user@machine:~$ cd PlantHunter
 ```
 
 # Usage
