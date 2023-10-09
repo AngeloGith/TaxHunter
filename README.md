@@ -37,7 +37,7 @@ Run the script using the following command:
 
 # Example
 
-Input File
+# Input File
 The input file should contain a list of species names, one per line. For example:
 
 ```plaintext
